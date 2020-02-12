@@ -1,10 +1,16 @@
 import React from 'react'
+import Header from '../components/Header'
+import SearchArea from '../components/SearchArea'
+import Results from '../components/Results'
+import Footer from '../components/Footer'
 
 const Homepage = () => {
   return (
     <div>
-      <h1>Vacation Picker!</h1>
-      <h3>Where should your next adventure be?</h3>
+      <Header></Header>
+      <SearchArea></SearchArea>
+      <Results></Results>
+      <Footer></Footer>
     </div>
   )
 }
