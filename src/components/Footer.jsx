@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer-section">
       <p>
         Copyright © 2019 Chris Hayes. Made with{' '}
         <span roll="img" alt="Heart">
