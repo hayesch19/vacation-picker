@@ -21,6 +21,10 @@ h1 {
   margin: 1rem;
 }
 
+button {
+  size: 2rem;
+}
+
 /***** Classes *****/
 
 .header-section {
@@ -42,21 +46,7 @@ h1 {
   width: 100%;
 }
 
-/***** Color Choices *****/
-/*
-#f3d516
-#2a6171
-#75cac3
-#d7f7f5
-
-text-align: center;
-  font-size: 0.7rem;
-  color: antiquewhite;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2rem;
-  padding: 0.5rem;
-  padding-bottom: 1rem;
-*/
+.button-area {
+  display: flex;
+  justify-content: center;
+}
