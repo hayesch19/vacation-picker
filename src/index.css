@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,6 +11,12 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  font-family: 'Gotu', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1rem;
 }
 
 /***** Classes *****/
@@ -17,6 +25,7 @@ body {
   text-align: center;
   background-color: #2a6171;
   color: #f3d516;
+  padding: 0.5rem;
 }
 
 /***** Color Choices *****/
